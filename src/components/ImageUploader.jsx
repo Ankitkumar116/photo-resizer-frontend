@@ -18,7 +18,7 @@ function ImageUploader() {
         formData.append('width', width);
         formData.append('height', height);
 
-        const response = await axios.post('http://localhost:5000/upload', formData);
+        const response = await axios.post('https://photo-resizer-backend1.onrender.com/upload', formData);
         setResizedImage(response.data.url);
     };
 
