@@ -2,7 +2,7 @@
   "name": "frontend",
   "homepage": "https://Ankitkumar116.github.io/photo-resizer-frontend",
   "version": "1.0.0",
-   "main": "src/main.tsx",
+   "main": "index.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
